@@ -75,7 +75,16 @@ button {
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
-  margin: 2em;
+  margin: 2em 2em 0em 2em;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 0em 0 1em 0;
+  font-family: sans-serif;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -94,7 +103,7 @@ button {
 
 @media only screen and (min-width: 56.25em) {
   form {
-    padding: 5em 10em 5em 10em;
+    padding: 5em 10em 2em 10em;
   }
 }
 
